@@ -6,9 +6,9 @@ Describe with your own words what the following command is doing or answer the q
 
 1. `git diff file.txt`
 
-1. `git diff --staged`
+4. `git diff --staged` - Look at differences in staged (git add-ed?) files since the last commit
 
-1. `git diff HEAD~2 HEAD`
+1. `git diff HEAD~2 HEAD`  Visualize differences between repo at current commit and two commits previously
 
 1. `git push origin master`
 
@@ -24,7 +24,7 @@ Describe with your own words what the following command is doing or answer the q
 
 1. `git branch` - Typing Git branch in your terminal lists all the branches in the current git repository
 
-1. `git checkout -b feature_branch`
+1. `git checkout -b feature_branch` Create a new branch `feature_branch` and switch to it
 
 1. `git merge feature_branch` - This will merge any changes from from 'feature_branch' to 'master'. There will be merge conflicts if there are conflicting lines or changes.
 
